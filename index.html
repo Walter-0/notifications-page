@@ -22,8 +22,8 @@
   <body>
     <main>
       <div class="heading-flex-container">
-        <h1 class="title">Notifications <span class="notifications-count">3</span></h1>
-        <span class="mark-all-read">Mark all as read</span>
+        <h1 class="title">Notifications <span class="notifications-count" id="notifications-count"></span></h1>
+        <span class="mark-all-read" id="mark-all-read">Mark all as read</span>
       </div>
       <div class="notification unread">
         <img
@@ -64,7 +64,7 @@
           <p class="date">1 day ago</p>
         </div>
       </div>
-      <div class="notification read">
+      <div class="notification">
         <img
           src="./assets/images/avatar-rizky-hasanuddin.webp"
           alt="Rizky Hasanuddin Profile Picture"
@@ -78,7 +78,7 @@
           </p>
         </div>
       </div>
-      <div class="notification read">
+      <div class="notification">
         <img
           src="./assets/images/avatar-kimberly-smith.webp"
           alt="Kimberly Smith Profile Picture"
@@ -92,7 +92,7 @@
           <p class="date">1 week ago</p>
         </div>
       </div>
-      <div class="notification read">
+      <div class="notification">
         <img
           src="./assets/images/avatar-nathan-peterson.webp"
           alt="Nathan Peterson Profile Picture"
@@ -106,7 +106,7 @@
           <p class="date">2 weeks ago</p>
         </div>
       </div>
-      <div class="notification read">
+      <div class="notification">
         <img src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim Profile Picture" class="user-profile-picture" />
         <div class="notification-body">
           <p class="notification-action">
@@ -121,5 +121,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
       <a href="https://walteraugustine.com">Walter</a>.
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
